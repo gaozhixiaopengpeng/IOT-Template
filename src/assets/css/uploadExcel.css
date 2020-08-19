@@ -1,0 +1,7 @@
+.excel-box{
+    display: inline-block;
+}
+.excel-upload-input {
+  display: none;
+  z-index: -9999;
+}

@@ -1,0 +1,84 @@
+/*按钮*/
+.icon_div {
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+}
+
+.icon_div a {
+  display: inline-block;
+  width: 27px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/*end--按钮*/
+
+/*ztreeTable表格*/
+.ztreeTable {
+  padding: 0;
+  border: 2px solid #cdd6d5;
+}
+
+.ztreeTable li a {
+  vertical-align: middle !important;
+  height: 30px !important;
+}
+
+.ztreeTable li > a {
+  width: 100%;
+}
+
+.ztreeTable li > a,
+.ztreeTable li a.curSelectedNode {
+  padding-top: 0px;
+  background: none;
+  height: auto;
+  border: none;
+  cursor: default;
+  opacity: 1;
+}
+
+.ztreeTable li ul {
+  padding-left: 0px !important;
+}
+
+.ztreeTable div.diy span {
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.ztreeTable div.diy {
+  height: 100%;
+  width: 20%;
+  line-height: 30px;
+  border-top: 1px dotted #ccc;
+  border-left: 1px solid #eeeeee;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  color: #6c6c6c;
+  font-family: "SimSun";
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.ztreeTable div.diy:first-child {
+  text-align: left;
+  text-indent: 10px;
+  border-left: none;
+}
+
+.ztreeTable .head {
+  background: #5787eb;
+}
+
+.ztreeTable .head div.diy {
+  border-top: none;
+  border-right: 1px solid #cdd2d4;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+}
+
+/*end--ztreeTable表格*/

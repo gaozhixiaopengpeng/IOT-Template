@@ -1,0 +1,32 @@
+#trip_info li:nth-child(odd){
+    background: #ffffff;
+}
+#trip_info li:nth-child(even){
+    background: #e9e7e8;;
+}
+#trip_info {
+    color: #1a1819;
+    font-size: 16px;
+}
+#trip_info li div:nth-child(1) {
+    margin: 0;
+    line-height: 1;
+}
+#trip_info_dialog{
+    position: relative;
+}
+.rides_info{
+    position: absolute;
+    padding: 5px 10px;
+    border: 1px solid #75a1a1;
+    font-size: 16px;
+    font-weight: bold;
+    color: #75a1a1;
+    top: 13px;
+    right: 20px;
+    border-radius: 4px;
+}
+.rides:hover{
+    background-color: rgba(57,193,210,0.3);
+    cursor:pointer;
+}
